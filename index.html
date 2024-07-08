@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task (Al Amin Alif)</title>
+    <script src="https://kit.fontawesome.com/ba4dddff5d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- HERO SECTION -->
+
+    <header class="bg-blue-800 text-white h-screen w-full relative px-6">
+
+        <div class="flex  justify-between pt-3">
+            <div class="flex items-center">
+                <img class="" src="./Content/hero-section/Group 183.png" alt="">
+                <p class="hidden sm:block text-3xl ml-1"><strong>wp</strong>pool</p>
+            </div>
+            <div class="flex items-center  ">
+                <i class="border rounded-full mr-2 p-2 fa-solid fa-share-nodes"></i>
+                <p class="hidden md:block border rounded-full text-xs   px-4 py-2  ">Download the 2024 Report</p>
+                <div class="relative">
+                    <i id="menuBar" class="cursor-pointer ml-4 text-xl fa-solid fa-bars "></i>
+                    <div class="absolute">
+                        <div id="menu" class="absolute text-black dropdown-hero hidden bg-white rounded-2xl w-72 p-4">
+                            <div class="flex items-center">
+                                <i
+                                    class="border bg-green-400 text-white rounded-full mr-2 p-2.5 fa-solid fa-share-nodes"></i>
+                                <p class="flex items-center bg-blue-600 text-white rounded-full text-xs  px-2 py-2   ">
+                                    Download the 2024
+                                    Report</p>
+                                <i id="crossBar" class="cursor-pointer text-2xl ml-4 fa-solid fa-xmark"></i>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="p-2 mt-4">The WPPOOL Index</li>
+                                    <li class="p-2">All Companies</li>
+                                    <li class="p-2">Potenial Future Listings</li>
+                                    <li class="p-2">State Of USA</li>
+                                    <li class="p-2">Stories & Ideas</li>
+                                    <li class="p-2">About WPPOOL</li>
+                                    <li class="p-2">WPPOOL Portfolio Companies</li>
+                                    <li class="p-2 text-xl text-blue-800">Visit WPPOOL</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="flex flex-col items-center w-5/6 absolute hero-title z-10 ">
+                <p class="text-7xl">The WPPOOL Index</p>
+                <p>Monitor the performance of emerging, publicly traded, financial technology companies</p>
+            </div>
+        </div>
+        <div class="hero-side-info absolute  md:mt-2 ">
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">60</p>
+                <p class="text-xs">Companies</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">$100B</p>
+                <p class="text-xs">Market Cap</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">3.5x</p>
+                <p class="text-xs">Revenue Multiple</p>
+            </div>
+            <div class="mb-6 font-extralight">
+                <p class="text-3xl mb-0.5">605</p>
+                <p class="text-xs">LTM avg growth Rate</p>
+            </div>
+        </div>
+        <div class="absolute hero-bg-image brightness-50">
+            <img src="./Content/hero-section/Mask_group-removebg-preview.png" alt="">
+        </div>
+        <div class="absolute hero-bg-image">
+            <img src="./Content/hero-section/Rectangle 1.png" alt="">
+        </div>
+    </header>
+
+    <!-- CHART SECTION  -->
+    <div class="flex flex-col md:flex-row bg-white m-6 gap-4 pl-4 pt-4 pb-4">
+
+        <div class="bg-blue-100 md:w-2/12 rounded">
+            <p class="bg-blue-800 text-white rounded m-2 p-3">The Index</p>
+            <p class="rounded m-2 p-3">The Index Tab Two</p>
+            <p class="rounded m-2 p-3">The Index Tab Three</p>
+            <p class="rounded m-2 p-3">The Index Tab Four</p>
+            <p class="rounded m-2 p-3">The Index Tab Five </p>
+
+
+        </div>
+        <div class="w-10/12  p-4">
+            <div>
+                <p class="text-2xl md:text-3xl mb-2">The WPPOOL Index</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2   gap-5">
+                <div class="flex  justify-between px-2 py-3 rounded bg-gray-100">
+                    <p class="text-2xl lg:text-3xl text-red-400">+66.2%</p>
+                    <p class="text-xs pr-2 border-red-600 border-r-4">WPPOOL <br> index</p>
+                </div>
+                <div class="flex   justify-between px-2 py-3 rounded bg-gray-100">
+                    <p class="text-2xl lg:text-3xl text-blue-400">+26.2%</p>
+                    <p class="text-xs pr-2 border-blue-600 border-r-4">Google <br> index</p>
+                </div>
+                <div class="flex  justify-between px-2 py-3 rounded bg-gray-100">
+                    <p class="text-2xl lg:text-3xl text-green-500">+34.2%</p>
+                    <p class="text-xs pr-2 border-green-600 border-r-4">Microsoft </p>
+                </div>
+                <div class="flex  justify-between px-2 py-3 rounded bg-gray-100">
+                    <p class="text-2xl lg:text-3xl text-red-400">+17%</p>
+                    <p class="text-xs pr-2 border-red-600 border-r-4">Twitter <br> index</p>
+                </div>
+            </div>
+            <canvas id="myChart"></canvas>
+        </div>
+
+    </div>
+
+    <!-- TABLE SECTION -->
+
+    <div class="bg-white m-6 p-4">
+        <div class="flex flex-col md:flex-row justify-between mb-8">
+            <p class="text-3xl">All Companies</p>
+            <div class="relative">
+                <input class=" pl-8 py-2 w-80 md:w-96 rounded bg-gray-100" type="text" placeholder="Search Companies">
+                <i class="absolute input-search z-100 fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="overflow-scroll  h-screen">
+            <table class="w-full   shadow bg-white rounded-md  h-72">
+                <thead>
+                    <tr class="text-xs font-medium text-left   bg-gray-50 ">
+                        <th scope="col" class="px-6 py-3">Company</th>
+                        <th scope="col" class="px-6 py-3">Ticker</th>
+                        <th scope="col" class="px-6 py-3">Vertical</th>
+                        <th scope="col" class="px-6 py-3">Price ($)</th>
+                        <th scope="col" class="px-6 py-3">Market Cap ($B)</th>
+                        <th scope="col" class="px-6 py-3">Revenue Growth</th>
+                        <th scope="col" class="px-6 py-3">Gross Margin</th>
+                        <th scope="col" class="px-6 py-3">EV/Revenue</th>
+                        <th scope="col" class="px-6 py-3">YTD Performance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-6 py-4 whitespace-nowrap">Adyen</td>
+                        <td class="px-6 py-4">ADYEN</td>
+                        <td class="px-6 py-4">Payments</td>
+                        <td class="px-6 py-4">$17.15</td>
+                        <td class="px-6 py-4">$50.5</td>
+                        <td class="px-6 py-4">49.0%</td>
+                        <td class="px-6 py-4">15.8%</td>
+                        <td class="px-6 py-4">6.3</td>
+                        <td class="px-6 py-4">24.3%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Affirm</td>
+                        <td class="px-6 py-4">AFRM</td>
+                        <td class="px-6 py-4">Lending</td>
+                        <td class="px-6 py-4">$16.12</td>
+                        <td class="px-6 py-4">$4.7</td>
+                        <td class="px-6 py-4">32.0%</td>
+                        <td class="px-6 py-4">48.7%</td>
+                        <td class="px-6 py-4">4.9</td>
+                        <td class="px-6 py-4">77.1%</td>
+                    </tr>
+                    <tr class="border-b ">
+                        <td class="px-6 py-4 whitespace-nowrap">Shopify</td>
+                        <td class="px-6 py-4">SHOP</td>
+                        <td class="px-6 py-4">E-commerce</td>
+                        <td class="px-6 py-4">$40.08</td>
+                        <td class="px-6 py-4">$154.2</td>
+                        <td class="px-6 py-4">37.0%</td>
+                        <td class="px-6 py-4">57.0%</td>
+                        <td class="px-6 py-4">37.1</td>
+                        <td class="px-6 py-4">28.5%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="flex flex-col text-center  md:flex-row items-center justify-center gap-5 text-white mt-8 mb-8">
+        <p class="bg-blue-800 max-w-xs rounded-full px-5 py-2 button-shadow">Download 'All Companies' Data</p>
+        <p class="bg-blue-800 max-w-xs rounded-full px-5 py-2 button-shadow">View Methodology</p>
+    </div>
+
+
+    <!-- FUTURE LISTING -->
+
+    <div class="p-vw">
+        <p class="text-3xl mb-2">Potenial Future Listings</p>
+        <p class="text-x mb-3">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+            interdum, ac aliquet odio
+            mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <div>
+            <div class="listing-logos grid grid-cols-3 md:grid-cols-6 gap-4">
+                <img class="bg-white p-4 md:p-6  lg:p-10 rounded" src="./Content/Group 227.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group 219.png"
+                    alt="">
+                <img class="bg-white p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group 220.png" alt="">
+                <img class="bg-white p-4 md:p-6  lg:p-10 rounded" src=" ./Content/Group 227.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group 222.png"
+                    alt="">
+                <img class="bg-white w-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group 224.png"
+                    alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/Group 227.png" alt="">
+                <img class="bg-white h-full p-4 md:p-6  lg:p-10 rounded" src="./Content/listing-logos/Group 226.png"
+                    alt="">
+                <img class="bg-white p-4 md:p-6  lg:p-10 rounded" src=" ./Content/Group 227.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDER SECTION -->
+
+    <div class="p-vw">
+        <div>
+            <p class="text-4xl">State of USA</p>
+            <div class="flex items-center justify-center gap-8 py-1.5 bg-blue-800 rounded-full w-36 text-white my-4">
+                <p class="text-3xl">2024</p>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="relative">
+            <div class="absolute slider-bg-img">
+                <img src="./Content/slider-section/Group 364.png" alt="">
+            </div>
+            <div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img class="" src="./Content/slider-section/rgegdg.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./Content/slider-section/rhrdgd.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./Content/slider-section/rgegdg.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./Content/slider-section/rhrdgd.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./Content/slider-section/rgegdg.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./Content/slider-section/rhrdgd.png" alt=""></div>
+
+                    </div>
+                    <div class="flex gap-4 ml-6 md:ml-12">
+                        <div class="slider-prev button-shadow"><i class="fa-solid fa-arrow-left"></i></div>
+                        <div class="slider-next button-shadow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stories & Ideas Section -->
+
+    <div class="p-vw">
+        <p class="text-4xl mb-1.5">Stories & Ideas</p>
+        <p class="mb-24">The latest news and updates</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-16">
+
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+            <div class="relative ">
+                <div class="absolute card-img">
+                    <img src="./Content/image 98.png" alt="">
+                </div>
+                <div
+                    class="max-w-md px-6 pb-6 pt-24 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-blue-400">Al Amin Alif
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. At, odit</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <hr class=" mx-24 bg-black border border-blue-200">
+
+    <!-- ABOUT SECTION  -->
+
+    <div class="  p-vw">
+
+        <div class="flex rounded-xl bg-white">
+            <div class="w-full lg:w-2/3 px-4 pt-8 pb-12  md:px-16 md:pt-12">
+                <p class="text-5xl">About WPPOOL </p>
+                <p class="text-2xl text-gray-400 my-2">Investing in WPPOOL for over 50 Years</p>
+                <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo libero praesentium
+                    facilis
+                    minus itaque
+                    enim ipsa molestias pariatur qui nisi numquam velit veniam, tenetur maxime dolorum ratione veritatis
+                    eveniet corrupti aspernatur adipisci iure. Soluta quae asperiores beatae amet obcaecati aliquam iste
+                    dolores, quidem, explicabo eligendi expedita voluptates ipsam debitis.</p>
+                <span class="bg-blue-800  button-shadow text-white px-4 py-3 rounded-full">Contact WPPOOL</span>
+            </div>
+            <div class="w-1/3 hidden lg:block">
+                <img src="./Content/Mask group.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <hr class=" mx-24 bg-black border border-blue-200">
+
+    <!-- COMPANY LISTING SECTION   -->
+
+    <div class="p-vw">
+        <p class="text-3xl mb-8">Selected WPPOOL Portfolio Companies</p>
+
+        <div>
+            <div class="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-8">
+                <img class=" w-full  bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full  bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+                <img class="w-full bg-white px-6  py-8 rounded" src="./Content/portfolio-logos/image 51.png" alt="">
+                <img class=" w-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/62e84990058cefbfc33ef312_vendr_logo 1.png" alt="">
+                <img class="w-full h-full bg-white px-6  py-8 rounded"
+                    src="./Content/portfolio-logos/ae99cd49-2667-464e-b9db-b39cee0126e1 1.png" alt="">
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <div class="bg-gray-200">
+        <div class="flex flex-col sm:flex-row">
+            <p class="text-3xl sm:w-3/6 p-vw-foot">Experience remarkable
+                WordPress products with a
+                new level of power, beauty,
+                and human-centered designs.</p>
+            <div class="sm:w-1/6 p-vw-foot text-blue-800">
+                <ul>
+                    <li class="text-gray-500 font-semibold mb-2">Jump To</li>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>news</li>
+                    <li>Stories</li>
+                    <li>Jobs</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="w-2/6 p-vw-foot">
+                <div>
+                    <p class="font-semibold mb-1">Cambridge</p>
+                    <p>70728 Yost Burg,
+                        North Magdaleneview,
+                        UT 97952-2814</p>
+                </div>
+                <hr class="mr-12 my-4 bg-black border border-gray-300">
+
+                <div>
+                    <p class="font-semibold mb-1">London</p>
+                    <p>Suite 292 903 Stehr Streets,
+                        Langworthtown, SC 94577-9465</p>
+                </div>
+                <hr class="mr-12 my-4 bg-black border border-gray-300">
+                <div>
+                    <p class="font-semibold mb-1">San Francisco</p>
+                    <p>19837 Gilberto Lodge,
+                        Lake Kendallville,
+                        Colorado - 97392, Bhutan</p>
+                </div>
+                <hr class="mr-12 my-4 bg-black border border-gray-300">
+                <div class="text-2xl text-gray-500">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="ml-3 fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="sm:w-1/2 p-vw-foot-para">
+            <div class="flex text-gray-400 gap-6">
+                <p>©2024</p>
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ad molestiae provident pariatur iusto
+                eligendi sit alias assumenda reiciendis aliquid nobis omnis quisquam blanditiis, totam quia nostrum iste
+                ipsum rerum dolor magnam aut maxime voluptatibus minus! Reprehenderit, nobis. Rerum eos at, voluptate
+                molestiae veritatis dolore dicta fugit facere architecto delectus culpa laboriosam ad. Et iste,
+                molestias quaerat numquam quia in.</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

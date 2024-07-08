@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eee;
+}
+
+.hero-bg-image,
+.hero-title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.dropdown-hero {
+    left: -238px;
+    top: -33px;
+    z-index: 20;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.input-search {
+    left: 7px;
+    top: 12px;
+}
+
+.button-shadow {
+    box-shadow: rgb(66, 91, 117) 0px 20px 30px -10px;
+}
+
+.p-vw {
+    padding: 4vw;
+}
+
+/* Slider */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-prev,
+.slider-next {
+    background-color: #fff;
+    width: 35px;
+    border-radius: 99999px;
+    padding: 7px 4px 7px 4px;
+    text-align: center;
+}
+
+.slider-bg-img {
+    top: -36%;
+    left: 48%;
+}
+
+
+.card-img {
+    left: 12px;
+    top: -45px;
+}
+
+.p-vw-foot {
+    padding: 4vw 4vw 0 4vw;
+}
+
+.p-vw-foot-para {
+    padding: 0 4vw 4vw 4vw;
+}
+
+.hero-side-info {
+    top: 55%;
+}
+
+.listing-logos img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero-side-info {
+        display: flex;
+        gap: .725rem;
+        top: 75%;
+    }
+
+
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+    .hero-side-info {
+        display: flex;
+        gap: 1.25rem;
+        top: 75%;
+        left: 20%;
+
+    }
+}
